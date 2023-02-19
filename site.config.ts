@@ -3,28 +3,28 @@ import { siteConfig } from './lib/site-config'
 export default siteConfig({
   // the site's root Notion page (required)
   // rootNotionPageId: 'niviki-com-t-do-t-i-ch-nh-10f5e54221eb4b059bc5b5305da949ba',
-  rootNotionPageId: 'Simple-Template-49955b133eb843bdb8665534ecfd844c',
+  rootNotionPageId: 'LeanBiz-VN-Kinh-doanh-tinh-g-n-th-i-i-s-a85a29ad62cb4d7fac270e9f7bde4eab',
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'NIVIKI.COM - TỰ DO TÀI CHÍNH',
-  domain: 'niviki.com',
-  author: 'Khoa Nguyen',
+  name: 'demo - demosite',
+  domain: 'demo.vn',
+  author: 'Th',
 
   // open graph metadata (optional)
-  description: 'Lan toả tinh thần tự do tài chính đến với nhiều người hơn nữa! Tự do tài chính là bạn được quyền “thất nghiệp” nhưng vẫn có đủ tiền cho một cuộc sống thoải mái trong thời gian dài',
+  description: 'demo des',
 
   // social usernames (optional)
-  twitter: 'khoa_nvk',
+  twitter: '#',
   // github: 'transitive-bullshit',
-  linkedin: 'khoanguyen08',
+  linkedin: '#',
   
-  facebook: 'https://www.facebook.com/groups/nocodevietnam',
+  facebook: '#',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
-  youtube: 'channel/UCI6GDuK41kD9T8icFp8d7Aw', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
+  youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
@@ -61,11 +61,11 @@ export default siteConfig({
       pageId: '59432e1a0cdf4effbb402701deff00a9'
     },    
     {
-      title: 'NoCode VN',
+      title: 'Products',
       pageId: '93331fa2964045248502bd314019c917'
     },    
     {
-      title: 'Khoá học',
+      title: 'Tools',
       pageId: '8e761b9e7d1b4db1ae76bbc1e4f9aa1f'
     },    
     {
